@@ -1,0 +1,31 @@
+= todo API 명세
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs // 코드들의 하이라이팅을 highlightjs를 사용
+:toc: left // Table Of Contents(목차)를 문서의 좌측에 두기
+:toclevels: 2 // 목차 레벨 설정
+:sectlinks:
+:sectnums: // 분류별 자동으로 숫자를 달아줌
+:docinfo: shared-head
+
+== 투두
+
+=== 투두 한건 조회
+==== 성공
+operation::get-todo-by-id[]
+
+=== 투두 목록 조회
+==== 성공
+operation::get-all-todos[]
+
+=== 투두 등록
+==== 성공
+operation::save-todo[]
+
+=== 투두 수정
+==== 성공
+operation::update-todo[]
+
+=== 투두 삭제
+==== 성공
+operation::delete-todo-by-id[]
